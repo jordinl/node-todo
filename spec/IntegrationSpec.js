@@ -21,5 +21,9 @@ describe("Integration", function() {
     it("adds to-do item", function() {
       expect(page.find("#todo-list").text()).toContain(text);
     });
+
+    it("fails", function() {
+      expect(1).toEqual(0);
+    });
   });
 });
