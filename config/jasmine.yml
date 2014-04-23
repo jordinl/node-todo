@@ -1,5 +1,5 @@
 spec_files:
-  - "**/*[Ss]pec.{js,coffee}"
+  - "spec/*[Ss]pec.{js,coffee}"
 
 application_port: 8080
 
