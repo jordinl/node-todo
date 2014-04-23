@@ -1,0 +1,6 @@
+spec_files:
+  - "**/*[Ss]pec.{js,coffee}"
+
+application_port: 8080
+
+server_command: "node server.js"
