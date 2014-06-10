@@ -15,6 +15,13 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 3. Start the server: `node server.js`
 4. View in browser at `http://localhost:8080`
 
+## Installation
+Run tests
+1. Install phantomjs
+2. Install grunt-cli: npm install grunt-cli -g
+3. Running tests in a browser: Run `grunt jasmine:server`. Tests should be available at http://localhost:8888
+4. Running tests in headless mode: Run `grunt jasmine:server:ci`
+
 ## Tutorial Series
 
 This repo corresponds to the Node Todo Tutorial Series on [scotch.io](http://scotch.io)
@@ -30,3 +37,4 @@ Each branch represents a certain tutorial.
 Happy Todo-ing!
 
 ![Todo-aholic](http://i.imgur.com/ikyqgrn.png)
+
