@@ -23,5 +23,9 @@ describe("Integration", function() {
     it("fails", function() {
       expect(1).toEqual(0);
     });
+
+      xit("fails", function() {
+          expect(1).toEqual(0);
+      });
   });
 });
