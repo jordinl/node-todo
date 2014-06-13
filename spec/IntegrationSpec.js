@@ -13,9 +13,7 @@ describe("Integration", function() {
       text = "text-" + Math.random();
       page.fill_in("input[ng-model='formData.text']", text);
       page.click("button");
-      page.waitFor(function() {
-        return !page.find("input[ng-model='formData.text']").val();
-      }, done);
+      page.onBodyChange(done);
     });
 
     it("adds to-do item", function() {
