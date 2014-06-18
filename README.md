@@ -15,8 +15,8 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 3. Start the server: `node server.js`
 4. View in browser at `http://localhost:8080`
 
-## Installation
-Run tests
+## Installation run tests
+
 1. Install phantomjs
 2. Install grunt-cli: npm install grunt-cli -g
 3. Running tests in a browser: Run `grunt jasmine:server`. Tests should be available at http://localhost:8888
